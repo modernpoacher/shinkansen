@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git@github.com/modernpoacher/Shinkansen.git"
   },
-  "author": "Jonathan Perry for Modern Poacher",
+  "author": "Jonathan Perry for Modern Poacher Limited",
   "license": "MIT",
   "engines": {
     "node": ">=7.0.0"
