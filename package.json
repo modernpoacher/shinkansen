@@ -1,6 +1,6 @@
 {
   "name": "shinkansen",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Shinkansen",
   "main": "./index.js",
   "keywords": [
@@ -25,12 +25,12 @@
     "parser": "babel-eslint"
   },
   "dependencies": {
-    "shinkansen-gears": "0.0.9",
-    "shinkansen-motor": "0.0.9",
-    "shinkansen-pantograph": "0.0.9",
-    "shinkansen-rails": "0.0.9",
-    "shinkansen-relay": "0.0.9",
-    "shinkansen-signals": "0.0.9"
+    "shinkansen-gears": "0.0.10",
+    "shinkansen-motor": "0.0.10",
+    "shinkansen-pantograph": "0.0.10",
+    "shinkansen-rails": "0.0.10",
+    "shinkansen-relay": "0.0.10",
+    "shinkansen-signals": "0.0.10"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
