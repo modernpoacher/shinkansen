@@ -18,8 +18,10 @@
   },
   "scripts": {
     "build": "babel src -d lib",
+    "clean": "rm -rf lib node_modules",
     "prepublishOnly": "npm run build",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "lint:fix": "npm run lint -- --fix"
   },
   "standard": {
     "parser": "babel-eslint"
