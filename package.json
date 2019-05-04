@@ -21,7 +21,7 @@
     "clean": "bash clean.sh",
     "babel": "babel src -d lib",
     "babel:watch": "npm run babel -- -w",
-    "lint": "eslint src",
+    "lint": "eslint src *.js",
     "lint:fix": "npm run lint -- --fix",
     "pre-commit": "npm run lint && npm run babel && git add lib"
   },
@@ -29,12 +29,12 @@
     "parser": "babel-eslint"
   },
   "dependencies": {
-    "shinkansen-gears": "latest",
-    "shinkansen-motor": "latest",
-    "shinkansen-pantograph": "latest",
-    "shinkansen-rails": "latest",
-    "shinkansen-relay": "latest",
-    "shinkansen-signals": "latest"
+    "shinkansen-gears": "0.0.14",
+    "shinkansen-motor": "0.0.14",
+    "shinkansen-pantograph": "0.0.14",
+    "shinkansen-rails": "0.0.14",
+    "shinkansen-relay": "0.0.14",
+    "shinkansen-signals": "0.0.14"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
