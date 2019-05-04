@@ -15,9 +15,6 @@
   },
   "author": "Jonathan Perry for Modern Poacher Limited",
   "license": "MIT",
-  "engines": {
-    "node": ">=7.0.0"
-  },
   "scripts": {
     "build": "babel src -d lib",
     "clean": "bash clean.sh",
