@@ -16,7 +16,8 @@
   "author": "Jonathan Perry for Modern Poacher Limited",
   "license": "MIT",
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "npm run lint:fix && npm run build",
+    "prebuild": "npm run clean",
     "build": "npm run babel",
     "clean": "bash clean.sh",
     "babel": "babel src -d lib",
@@ -29,30 +30,30 @@
     "deps:dev": "deps --save-dev"
   },
   "dependencies": {
-    "shinkansen-gears": "0.0.15",
-    "shinkansen-motor": "0.0.15",
-    "shinkansen-pantograph": "0.0.15",
-    "shinkansen-rails": "0.0.15",
-    "shinkansen-relay": "0.0.15",
-    "shinkansen-signals": "0.0.15"
+    "shinkansen-gears": "0.0.16",
+    "shinkansen-motor": "0.0.16",
+    "shinkansen-pantograph": "0.0.16",
+    "shinkansen-rails": "0.0.16",
+    "shinkansen-relay": "0.0.16",
+    "shinkansen-signals": "0.0.16"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.4",
-    "@modernpoacher/deps": "0.0.4",
+    "@modernpoacher/deps": "0.0.5",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.6",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
-    "husky": "^2.3.0"
+    "husky": "^2.4.0"
   },
   "husky": {
     "hooks": {
