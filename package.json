@@ -30,13 +30,13 @@
     "deps:dev": "deps --save-dev"
   },
   "dependencies": {
-    "shinkansen-cogs": "1.0.1",
-    "shinkansen-gears": "1.0.1",
-    "shinkansen-motor": "1.0.1",
-    "shinkansen-pantograph": "1.0.1",
-    "shinkansen-rails": "1.0.1",
-    "shinkansen-relay": "1.0.1",
-    "shinkansen-signals": "1.0.1"
+    "shinkansen-cogs": "1.0.2",
+    "shinkansen-gears": "1.0.2",
+    "shinkansen-motor": "1.0.2",
+    "shinkansen-pantograph": "1.0.2",
+    "shinkansen-rails": "1.0.2",
+    "shinkansen-relay": "1.0.2",
+    "shinkansen-signals": "1.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
