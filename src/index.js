@@ -1,3 +1,4 @@
+export { Cogs } from 'shinkansen-cogs'
 export { Gears } from 'shinkansen-gears'
 export { Motor } from 'shinkansen-motor'
 export { Pantograph } from 'shinkansen-pantograph'
