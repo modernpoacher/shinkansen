@@ -7,7 +7,7 @@
     "standard"
   ],
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 10
   },
   "parser": "babel-eslint"
 }
