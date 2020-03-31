@@ -1,9 +1,7 @@
+.editorconfig
 .eslintignore
 .eslintrc
 
 # NPM
 .npmignore
 .npmrc
-
-.editorconfig
-.eslintignore
