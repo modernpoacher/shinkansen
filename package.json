@@ -30,12 +30,12 @@
     "deps:dev": "deps --save-dev"
   },
   "dependencies": {
-    "shinkansen-cogs": "1.0.5",
-    "shinkansen-gears": "1.0.5",
-    "shinkansen-motor": "1.0.5",
-    "shinkansen-pantograph": "1.0.5",
-    "shinkansen-rails": "1.0.5",
-    "shinkansen-relay": "1.0.5",
+    "shinkansen-cogs": "1.0.6",
+    "shinkansen-gears": "1.0.6",
+    "shinkansen-motor": "1.0.6",
+    "shinkansen-pantograph": "1.0.6",
+    "shinkansen-rails": "1.0.6",
+    "shinkansen-relay": "1.0.6",
     "shinkansen-signals": "1.0.6",
     "shinkansen-sprockets": "0.0.2"
   },
