@@ -30,31 +30,31 @@
     "deps:dev": "deps --save-dev"
   },
   "dependencies": {
-    "shinkansen-cogs": "1.0.4",
-    "shinkansen-gears": "1.0.4",
-    "shinkansen-motor": "1.0.4",
-    "shinkansen-pantograph": "1.0.4",
-    "shinkansen-rails": "1.0.4",
-    "shinkansen-relay": "1.0.4",
-    "shinkansen-signals": "1.0.4",
-    "shinkansen-sprockets": "0.0.1"
+    "shinkansen-cogs": "1.0.5",
+    "shinkansen-gears": "1.0.5",
+    "shinkansen-motor": "1.0.5",
+    "shinkansen-pantograph": "1.0.5",
+    "shinkansen-rails": "1.0.5",
+    "shinkansen-relay": "1.0.5",
+    "shinkansen-signals": "1.0.6",
+    "shinkansen-sprockets": "0.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
     "@babel/register": "^7.9.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
-    "eslint": "^6.8.0",
+    "eslint": "^7.0.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
-    "husky": "^4.2.3",
+    "husky": "^4.2.5",
     "rimraf": "^3.0.2"
   },
   "husky": {
