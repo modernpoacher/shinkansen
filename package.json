@@ -30,16 +30,16 @@
     "deps:dev": "deps --save-dev"
   },
   "dependencies": {
-    "shinkansen-cogs": "1.5.2",
-    "shinkansen-gears": "1.0.9",
-    "shinkansen-motor": "1.0.8",
-    "shinkansen-pantograph": "1.0.8",
-    "shinkansen-pinion": "1.0.4",
-    "shinkansen-rails": "1.0.8",
-    "shinkansen-relay": "1.0.8",
-    "shinkansen-signals": "1.0.8",
-    "shinkansen-sprockets": "1.0.2",
-    "shinkansen-transmission": "2.1.5"
+    "shinkansen-cogs": "1.5.4",
+    "shinkansen-gears": "1.0.10",
+    "shinkansen-motor": "1.0.9",
+    "shinkansen-pantograph": "1.0.12",
+    "shinkansen-pinion": "1.0.11",
+    "shinkansen-rails": "1.0.9",
+    "shinkansen-relay": "1.0.9",
+    "shinkansen-signals": "1.0.9",
+    "shinkansen-sprockets": "1.0.6",
+    "shinkansen-transmission": "2.1.8"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
@@ -51,7 +51,7 @@
     "babel-loader": "^8.1.0",
     "eslint": "^7.2.0",
     "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.21.1",
+    "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.0",
