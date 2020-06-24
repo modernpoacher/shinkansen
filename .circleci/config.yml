@@ -1,10 +1,9 @@
 version: 2.1
-orbs:
-  node: circleci/node@1.1.6
+
 jobs:
   publish:
-    executor:
-      name: node/default
+    docker:
+      - image: circleci/node:12.4.0
     steps:
       - checkout
       - run:
@@ -20,12 +19,13 @@ jobs:
 
             if [ "$VERSION" != "$PUBLISHED_VERSION" ]
             then
-              npm install
+              npm ci
               npm publish
             fi
 
 workflows:
-  publish-to-npm:
+  version: 2
+  commit-workflow:
     jobs:
       - publish:
         filters:
