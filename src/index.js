@@ -1,4 +1,5 @@
 export * as Cogs from 'shinkansen-cogs'
+export { Engine } from 'shinkansen-engine'
 export { Gears } from 'shinkansen-gears'
 export { Motor } from 'shinkansen-motor'
 export { Pantograph } from 'shinkansen-pantograph'
