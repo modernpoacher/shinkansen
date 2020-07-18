@@ -1,4 +1,4 @@
-## @modernpoacher/shinkansen
+## shinkansen
 
 # Shinkansen
 
