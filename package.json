@@ -26,7 +26,7 @@
     "clean": "rimraf lib",
     "babel": "babel src -d lib",
     "babel:watch": "npm run babel -- -w",
-    "lint": "eslint src *.js",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "pre-commit": "npm run lint && npm run build && git add lib"
   },
