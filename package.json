@@ -31,7 +31,7 @@
     "pre-commit": "npm run lint && npm run build && git add lib"
   },
   "dependencies": {
-    "debug": "^4.1.1",
+    "debug": "^4.2.0",
     "shinkansen-cogs": "1.5.19",
     "shinkansen-engine": "1.0.7",
     "shinkansen-gears": "1.0.19",
