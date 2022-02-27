@@ -60,7 +60,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "5.2.0",
-    "eslint-plugin-react": "^7.29.1",
+    "eslint-plugin-react": "^7.29.2",
     "husky": "^7.0.4",
     "prop-types": "15.7.2",
     "react": "16.14.0",
