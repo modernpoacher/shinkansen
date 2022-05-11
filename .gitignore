@@ -1,10 +1,15 @@
-.DS_Store
+# Node
+node_modules
 
-**/node_modules/**/*
-**/npm-debug.log
+# Mac
+.DS_Store
 
 # User-defined NPM configuration
 .npmrc
+.npmignore
 
 # User-defined NVM configuration
 .nvmrc
+
+# Deps
+.depsrc
