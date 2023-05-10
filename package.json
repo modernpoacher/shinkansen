@@ -8,7 +8,7 @@
     "Zashiki",
     "Karakuri"
   ],
-  "main": "./index.js",
+  "main": "./src/index.mjs",
   "author": "Jonathan Perry for Modern Poacher Limited <modernpoacher@modernpoacher.com>",
   "license": "MIT",
   "engines": {
@@ -19,29 +19,24 @@
     "url": "git@github.com/modernpoacher/shinkansen.git"
   },
   "scripts": {
-    "prepublishOnly": "cross-env NODE_ENV=production npm run build",
-    "prebuild": "npm run clean",
-    "build": "cross-env DEBUG=shinkansen npm run babel",
-    "build:watch": "npm run babel:watch",
-    "clean": "rimraf lib",
-    "babel": "babel src -d lib",
-    "babel:watch": "npm run babel -- -w",
-    "lint": "eslint .",
+    "prelint": "npm run nvm",
+    "lint": "cross-env NODE_ENV=production eslint . --ext .mjs --ext .cjs --ext .jsx --ext .mts --ext .cts",
     "lint:fix": "npm run lint -- --fix",
-    "pre-commit": "npm run lint && npm run build && git add lib"
+    "nvm": "bash nvm.sh",
+    "prepare": "husky install"
   },
   "dependencies": {
     "debug": "^4.3.4",
-    "shinkansen-cogs": "1.5.70",
-    "shinkansen-engine": "1.0.49",
-    "shinkansen-gears": "1.0.64",
-    "shinkansen-pantograph": "1.1.21",
-    "shinkansen-pinion": "1.0.72",
-    "shinkansen-rails": "1.0.37",
-    "shinkansen-relay": "1.0.41",
-    "shinkansen-signals": "1.1.20",
-    "shinkansen-sprockets": "1.0.67",
-    "shinkansen-transmission": "2.2.29"
+    "shinkansen-cogs": "1.5.72",
+    "shinkansen-engine": "1.0.55",
+    "shinkansen-gears": "1.0.66",
+    "shinkansen-pantograph": "1.1.22",
+    "shinkansen-pinion": "1.0.77",
+    "shinkansen-rails": "1.0.38",
+    "shinkansen-relay": "1.0.42",
+    "shinkansen-signals": "1.1.21",
+    "shinkansen-sprockets": "1.0.69",
+    "shinkansen-transmission": "2.2.33"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
@@ -50,9 +45,7 @@
     "@babel/plugin-proposal-export-default-from": "^7.18.10",
     "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
     "@babel/preset-env": "^7.21.5",
-    "@babel/preset-react": "^7.18.6",
     "@babel/register": "^7.21.0",
-    "babel-loader": "^9.1.2",
     "core-js": "^3.30.2",
     "cross-env": "^7.0.3",
     "eslint": "^8.40.0",
