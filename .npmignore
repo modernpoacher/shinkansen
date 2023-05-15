@@ -4,6 +4,8 @@
 .github
 .husky
 
+.gitattributes
+
 .editorconfig
 .eslintignore
 .eslintrc
