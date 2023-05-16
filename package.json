@@ -30,13 +30,13 @@
     "shinkansen-cogs": "1.6.3",
     "shinkansen-engine": "1.1.6",
     "shinkansen-gears": "1.1.3",
-    "shinkansen-pantograph": "1.2.5",
+    "shinkansen-pantograph": "1.2.8",
     "shinkansen-pinion": "1.1.5",
-    "shinkansen-rails": "1.0.47",
-    "shinkansen-relay": "1.0.55",
-    "shinkansen-signals": "1.1.30",
+    "shinkansen-rails": "1.0.48",
+    "shinkansen-relay": "1.0.56",
+    "shinkansen-signals": "1.1.31",
     "shinkansen-sprockets": "1.1.3",
-    "shinkansen-transmission": "2.2.42"
+    "shinkansen-transmission": "2.2.43"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
@@ -47,7 +47,7 @@
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-react": "^7.18.6",
     "@babel/register": "^7.21.0",
-    "@modernpoacher/hooks": "^1.0.403",
+    "@modernpoacher/hooks": "^1.0.404",
     "core-js": "^3.30.2",
     "cross-env": "^7.0.3",
     "eslint": "^8.40.0",
