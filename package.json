@@ -36,7 +36,7 @@
     "shinkansen-relay": "1.0.88",
     "shinkansen-signals": "1.1.56",
     "shinkansen-sprockets": "1.1.29",
-    "shinkansen-transmission": "2.2.67"
+    "shinkansen-transmission": "2.2.68"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",
