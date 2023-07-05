@@ -35,7 +35,7 @@
     "shinkansen-rails": "1.0.79",
     "shinkansen-relay": "1.0.102",
     "shinkansen-signals": "1.1.63",
-    "shinkansen-sprockets": "1.1.52",
+    "shinkansen-sprockets": "1.1.53",
     "shinkansen-transmission": "2.2.75"
   },
   "devDependencies": {
