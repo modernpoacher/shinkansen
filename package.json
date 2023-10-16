@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "debug": "^4.3.4",
-    "shinkansen-cogs": "1.6.136",
+    "shinkansen-cogs": "1.6.137",
     "shinkansen-engine": "1.2.140",
     "shinkansen-gears": "1.1.142",
     "shinkansen-pantograph": "1.3.76",
