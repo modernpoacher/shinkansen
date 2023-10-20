@@ -31,15 +31,15 @@
   },
   "dependencies": {
     "debug": "^4.3.4",
-    "shinkansen-cogs": "1.6.139",
-    "shinkansen-engine": "1.2.143",
-    "shinkansen-gears": "1.1.145",
-    "shinkansen-pantograph": "1.3.76",
-    "shinkansen-pinion": "1.1.164",
-    "shinkansen-rails": "1.0.106",
+    "shinkansen-cogs": "1.6.140",
+    "shinkansen-engine": "1.2.144",
+    "shinkansen-gears": "1.1.146",
+    "shinkansen-pantograph": "1.3.77",
+    "shinkansen-pinion": "1.1.165",
+    "shinkansen-rails": "1.0.107",
     "shinkansen-relay": "1.0.147",
     "shinkansen-signals": "1.1.89",
-    "shinkansen-sprockets": "1.1.132",
+    "shinkansen-sprockets": "1.1.133",
     "shinkansen-transmission": "2.2.104"
   },
   "devDependencies": {
