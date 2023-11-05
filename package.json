@@ -31,16 +31,16 @@
   },
   "dependencies": {
     "debug": "^4.3.4",
-    "shinkansen-cogs": "1.6.153",
-    "shinkansen-engine": "1.2.158",
-    "shinkansen-gears": "1.1.158",
-    "shinkansen-pantograph": "1.3.84",
-    "shinkansen-pinion": "1.1.179",
-    "shinkansen-rails": "1.0.111",
-    "shinkansen-relay": "1.0.151",
-    "shinkansen-signals": "1.1.91",
-    "shinkansen-sprockets": "1.1.146",
-    "shinkansen-transmission": "2.2.106"
+    "shinkansen-cogs": "1.6.154",
+    "shinkansen-engine": "1.2.159",
+    "shinkansen-gears": "1.1.159",
+    "shinkansen-pantograph": "1.3.85",
+    "shinkansen-pinion": "1.1.180",
+    "shinkansen-rails": "1.0.112",
+    "shinkansen-relay": "1.0.152",
+    "shinkansen-signals": "1.1.92",
+    "shinkansen-sprockets": "1.1.147",
+    "shinkansen-transmission": "2.2.107"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
