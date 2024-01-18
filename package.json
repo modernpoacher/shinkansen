@@ -31,15 +31,15 @@
   },
   "dependencies": {
     "debug": "^4.3.4",
-    "shinkansen-cogs": "1.7.42",
+    "shinkansen-cogs": "1.7.43",
     "shinkansen-engine": "1.2.224",
-    "shinkansen-gears": "1.1.213",
+    "shinkansen-gears": "1.1.214",
     "shinkansen-pantograph": "1.3.113",
-    "shinkansen-pinion": "1.1.253",
+    "shinkansen-pinion": "1.1.254",
     "shinkansen-rails": "1.0.127",
     "shinkansen-relay": "1.0.177",
     "shinkansen-signals": "1.1.105",
-    "shinkansen-sprockets": "1.1.206",
+    "shinkansen-sprockets": "1.1.207",
     "shinkansen-transmission": "2.2.121"
   },
   "devDependencies": {
@@ -61,8 +61,8 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router": "^6.21.2",
-    "react-router-dom": "^6.21.2",
+    "react-router": "^6.21.3",
+    "react-router-dom": "^6.21.3",
     "react-test-renderer": "^18.2.0",
     "rimraf": "^5.0.5"
   }
