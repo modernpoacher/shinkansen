@@ -18,37 +18,30 @@ function env () {
   )
 }
 
-const presets = [
-  [
-    '@babel/env', {
-      targets: {
-        node: 'current',
-        browsers: [
-          'last 4 versions',
-          'safari >= 9',
-          'ios >= 8',
-          'ie >= 9',
-          '> 2%'
-        ]
-      },
-      useBuiltIns: 'usage',
-      corejs: 3
-    }
-  ],
-  '@babel/react'
-]
-
-const plugins = [
-  '@babel/proposal-export-default-from',
-  '@babel/proposal-export-namespace-from'
-]
-
 module.exports = (api) => {
   if (api) api.cache.using(env)
 
   return {
-    presets,
-    plugins,
+    presets: [
+      [
+        '@babel/env',
+        {
+          targets: {
+            node: 'current',
+            browsers: [
+              'last 4 versions',
+              'safari >= 9',
+              'ios >= 8',
+              'ie >= 9',
+              '> 2%'
+            ]
+          },
+          useBuiltIns: 'usage',
+          corejs: 3
+        }
+      ],
+      '@babel/react'
+    ],
     ignore: [
       /node_modules\/(?!shinkansen|@modernpoacher)/
     ]
