@@ -24,7 +24,7 @@
   },
   "scripts": {
     "prelint": "npm run nvm",
-    "lint": "cross-env NODE_ENV=production eslint . --ext .mjs,.cjs,.jsx,.mts,.cts",
+    "lint": "eslint . --ext .mjs,.cjs,.jsx,.mts,.cts",
     "lint:fix": "npm run lint -- --fix",
     "nvm": "bash nvm.sh",
     "prepare": "husky"
