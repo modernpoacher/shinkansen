@@ -34,13 +34,13 @@
     "shinkansen-cogs": "1.7.128",
     "shinkansen-engine": "1.2.328",
     "shinkansen-gears": "1.1.301",
-    "shinkansen-pantograph": "1.3.180",
+    "shinkansen-pantograph": "1.3.181",
     "shinkansen-pinion": "1.1.358",
     "shinkansen-rails": "1.0.162",
     "shinkansen-relay": "1.0.233",
     "shinkansen-signals": "1.1.140",
     "shinkansen-sprockets": "1.1.290",
-    "shinkansen-transmission": "2.2.158"
+    "shinkansen-transmission": "2.2.159"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.5",
