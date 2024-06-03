@@ -23,16 +23,16 @@
     "url": "git@github.com/modernpoacher/shinkansen.git"
   },
   "scripts": {
-    "prelint": "npm run nvm",
     "lint": "eslint . --ext .mjs,.cjs,.jsx,.mts,.cts",
     "lint:fix": "npm run lint -- --fix",
     "nvm": "bash nvm.sh",
+    "prelint": "npm run nvm",
     "prepare": "husky"
   },
   "dependencies": {
     "debug": "^4.3.5",
     "shinkansen-cogs": "1.7.130",
-    "shinkansen-engine": "1.2.330",
+    "shinkansen-engine": "1.2.331",
     "shinkansen-gears": "1.1.302",
     "shinkansen-pantograph": "1.3.190",
     "shinkansen-pinion": "1.1.360",
