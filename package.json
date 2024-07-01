@@ -12,7 +12,7 @@
   "author": {
     "name": "Jonathan Perry for Modern Poacher Limited",
     "email": "modernpoacher@modernpoacher.com",
-    "url": "http://modernpoacher.com"
+    "url": "https://modernpoacher.com"
   },
   "license": "ISC",
   "engines": {
@@ -33,14 +33,14 @@
     "debug": "^4.3.5",
     "shinkansen-cogs": "1.7.150",
     "shinkansen-engine": "1.2.356",
-    "shinkansen-gears": "1.1.321",
-    "shinkansen-pantograph": "1.3.203",
+    "shinkansen-gears": "1.1.322",
+    "shinkansen-pantograph": "1.3.204",
     "shinkansen-pinion": "1.1.385",
-    "shinkansen-rails": "1.0.176",
-    "shinkansen-relay": "1.0.255",
-    "shinkansen-signals": "1.1.154",
+    "shinkansen-rails": "1.0.177",
+    "shinkansen-relay": "1.0.256",
+    "shinkansen-signals": "1.1.155",
     "shinkansen-sprockets": "1.1.310",
-    "shinkansen-transmission": "2.2.174"
+    "shinkansen-transmission": "2.2.175"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.7",
@@ -49,7 +49,7 @@
     "@babel/preset-env": "^7.24.7",
     "@babel/preset-react": "^7.24.7",
     "@babel/register": "^7.24.6",
-    "@modernpoacher/hooks": "^1.0.480",
+    "@modernpoacher/hooks": "^1.0.481",
     "core-js": "^3.37.1",
     "cross-env": "^7.0.3",
     "eslint": "8.57.0",
