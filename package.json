@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/modernpoacher/shinkansen.git"
+    "url": "git+ssh://git@github.com/modernpoacher/shinkansen.git"
   },
   "scripts": {
     "lint": "eslint . --ext .mjs,.cjs,.jsx,.mts,.cts",
