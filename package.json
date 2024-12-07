@@ -30,12 +30,12 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "debug": "^4.3.7",
+    "debug": "^4.4.0",
     "shinkansen-cogs": "1.7.278",
-    "shinkansen-engine": "1.2.484",
+    "shinkansen-engine": "1.2.485",
     "shinkansen-gears": "1.1.445",
-    "shinkansen-pantograph": "1.3.311",
-    "shinkansen-pinion": "1.1.520",
+    "shinkansen-pantograph": "1.3.312",
+    "shinkansen-pinion": "1.1.521",
     "shinkansen-rails": "1.0.257",
     "shinkansen-relay": "1.0.310",
     "shinkansen-signals": "1.1.185",
