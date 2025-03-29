@@ -31,15 +31,15 @@
   },
   "dependencies": {
     "debug": "^4.4.0",
-    "shinkansen-cogs": "2.1.17",
-    "shinkansen-engine": "2.1.16",
+    "shinkansen-cogs": "2.1.19",
+    "shinkansen-engine": "2.1.19",
     "shinkansen-gears": "2.1.8",
     "shinkansen-pantograph": "1.5.19",
-    "shinkansen-pinion": "2.1.16",
+    "shinkansen-pinion": "2.1.18",
     "shinkansen-rails": "1.1.14",
     "shinkansen-relay": "1.1.13",
     "shinkansen-signals": "1.2.13",
-    "shinkansen-sprockets": "2.1.16",
+    "shinkansen-sprockets": "2.1.19",
     "shinkansen-transmission": "2.5.13"
   },
   "devDependencies": {
@@ -55,10 +55,10 @@
     "eslint-plugin-react": "^7.37.4",
     "husky": "^9.1.7",
     "prop-types": "^15.8.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router": "^7.4.0",
-    "react-test-renderer": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.4.1",
+    "react-test-renderer": "^19.1.0",
     "rimraf": "^6.0.1"
   }
 }
