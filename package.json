@@ -32,7 +32,7 @@
   "dependencies": {
     "debug": "^4.4.0",
     "shinkansen-cogs": "2.1.36",
-    "shinkansen-engine": "2.1.39",
+    "shinkansen-engine": "2.1.40",
     "shinkansen-gears": "2.1.13",
     "shinkansen-pantograph": "1.5.28",
     "shinkansen-pinion": "2.1.38",
@@ -57,7 +57,7 @@
     "prop-types": "^15.8.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "^7.5.0",
+    "react-router": "^7.5.1",
     "react-test-renderer": "^19.1.0",
     "rimraf": "^6.0.1"
   }
