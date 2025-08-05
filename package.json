@@ -32,7 +32,7 @@
   "dependencies": {
     "debug": "^4.4.1",
     "shinkansen-cogs": "2.1.85",
-    "shinkansen-engine": "2.1.103",
+    "shinkansen-engine": "2.1.104",
     "shinkansen-gears": "2.1.74",
     "shinkansen-pantograph": "1.5.113",
     "shinkansen-pinion": "2.1.95",
@@ -48,7 +48,7 @@
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
     "@babel/register": "^7.27.1",
-    "core-js": "^3.44.0",
+    "core-js": "^3.45.0",
     "cross-env": "^10.0.0",
     "eslint": "8.57.1",
     "eslint-config-standard": "^17.1.0",
