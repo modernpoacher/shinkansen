@@ -32,10 +32,10 @@
   "dependencies": {
     "debug": "^4.4.1",
     "shinkansen-cogs": "2.1.89",
-    "shinkansen-engine": "2.1.109",
+    "shinkansen-engine": "2.1.110",
     "shinkansen-gears": "2.1.79",
     "shinkansen-pantograph": "1.5.119",
-    "shinkansen-pinion": "2.1.101",
+    "shinkansen-pinion": "2.1.102",
     "shinkansen-rails": "1.1.86",
     "shinkansen-relay": "1.1.85",
     "shinkansen-signals": "1.2.85",
