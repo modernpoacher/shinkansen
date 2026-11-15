@@ -27,7 +27,7 @@
     "lint:fix": "npm run lint -- --fix",
     "nvm": "bash nvm.sh",
     "prelint": "npm run nvm",
-    "prepare": "husky"
+    "prepare": "node husky.mjs"
   },
   "dependencies": {
     "debug": "^4.4.3",
