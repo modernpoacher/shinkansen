@@ -34,12 +34,12 @@
     "shinkansen-cogs": "2.1.253",
     "shinkansen-engine": "2.1.209",
     "shinkansen-gears": "2.1.140",
-    "shinkansen-pantograph": "1.5.218",
+    "shinkansen-pantograph": "1.5.219",
     "shinkansen-pinion": "2.1.185",
     "shinkansen-rails": "1.1.191",
     "shinkansen-relay": "1.1.186",
     "shinkansen-signals": "1.2.186",
-    "shinkansen-sprockets": "2.1.255",
+    "shinkansen-sprockets": "2.1.256",
     "shinkansen-transmission": "2.5.159"
   },
   "devDependencies": {
