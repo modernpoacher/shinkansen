@@ -17,6 +17,3 @@
 
 # User-defined NVM configuration
 .nvmrc
-
-# Shell
-nvm.sh

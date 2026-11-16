@@ -10,29 +10,11 @@ export default [
     files: [
       '**/*.{mjs,cjs}'
     ],
-    ignores: [
-      'test'
-    ],
     languageOptions: {
       ...standard.recommended.languageOptions,
       globals: {
         ...globals.node
       }
-    }
-  },
-  {
-    ...standard.recommended,
-    files: [
-      'test/**/*.{mjs,cjs}'
-    ],
-    languageOptions: {
-      ...standard.recommended.languageOptions,
-      globals: {
-        ...globals.mocha
-      }
-    },
-    rules: {
-      'no-unused-expressions': 'off'
     }
   }
 ]

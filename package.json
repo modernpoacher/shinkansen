@@ -26,9 +26,10 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "nvm": "bash nvm.sh",
-    "prelint": "npm run nvm",
     "prepare": "node husky.mjs"
+  },
+  "allowScripts": {
+    "core-js@3.51.0": true
   },
   "dependencies": {
     "debug": "^4.4.3",
@@ -57,8 +58,10 @@
     "prop-types": "^15.8.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "react-router": "^8.5.1"  },
-  "allowScripts": {
-    "core-js@3.51.0": true
+    "react-router": "^8.5.1"
+  },
+  "exports": {
+    "import": "./src/index.mjs",
+    "require": "./src/index.cjs"
   }
 }
